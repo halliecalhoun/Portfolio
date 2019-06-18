@@ -38,6 +38,9 @@ img.responsive-img {
    color: #26a69a;
  }
  
+img.activator {
+    height: 135px;
+ }
  #landing{
     height: 100vh;
     background-image: url('../images/device-electronics-keyboard-872958.jpg');
