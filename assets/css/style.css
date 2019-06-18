@@ -24,9 +24,13 @@ body {
     margin: 0 auto;
 }
 
-img.responsive-img {
-    width: 80%;
-    margin-left: 35%;
+img.profile-img {
+    
+    margin-left: 15%;
+}
+
+#about-text {
+    margin-left: 5%;
 }
 
  p {
@@ -58,8 +62,9 @@ img.activator {
     margin: 0 auto;
 }
 
+
 img.responsive-img {
-    height: 50%;
+    /* height: 50%; */
 }
 
  .parallax { 
@@ -100,6 +105,17 @@ img.responsive-img {
    font-size: inherit;
  }
  
+ /* form {
+ 
+    background: -webkit-linear-gradient(#00bfa5, #fff); 
+    padding-top: 1% !important;
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+    border-radius: 10px;
+    font-size: 1.2em !important; 
+    opacity: 0.9;
+  } */
+
  footer.page-footer {
    margin: 0 auto;
    
