@@ -52,31 +52,34 @@ img.activator {
 }
 #mainText{
     margin-top: 25vh;
-   
 }
- /* .parallax { 
+
+#skillsets {
+    margin: 0 auto;
+}
+
+img.responsive-img {
+    height: 50%;
+}
+
+ .parallax { 
    background-position: center;
    background-size: cover;
-   
-
- } */
+ }
  
- /* .parallax-container {
-    background-size: cover;
-    background-position: center;
-   
-   min-height: 550px;
-   line-height: 0;
-   height: auto;
-   color: rgba(255,255,255,.9);
- }  
-   .parallax-container .section {
-     width: 100%;
-   }  */ */
+ .parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+  }
+    .parallax-container.section {
+      width: 100%;
+    }
  
  @media only screen and (max-width : 992px) {
    .parallax-container .section {
-     /* position: absolute; */
+     position: absolute;
      top: 40%;
    }
    #index-banner .section {
