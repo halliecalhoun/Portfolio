@@ -1,0 +1,96 @@
+
+
+body {
+    margin: 0 auto;
+}
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ /* nav ul a,
+ nav .brand-logo {
+   color: #444;
+ } */
+
+.nav-wrapper {
+    width: 75%;
+    margin: 0 auto;
+}
+ 
+.body-content {
+    margin: 0 auto;
+}
+
+
+
+ p {
+   line-height: 2rem;
+ }
+ 
+ .sidenav-trigger {
+   color: #26a69a;
+ }
+ 
+ #landing{
+    height: 100vh;
+    background-image: url('../images/device-electronics-keyboard-872958.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+#mainText{
+    margin-top: 25vh;
+}
+ /* .parallax {
+   background-position: center;
+   background-size: cover;
+   
+
+ }
+ 
+ .parallax-container {
+    background-size: cover;
+    background-position: center;
+   
+   min-height: 550px;
+   line-height: 0;
+   height: auto;
+   color: rgba(255,255,255,.9);
+ }  
+   .parallax-container .section {
+     width: 100%;
+   }  */
+ 
+ @media only screen and (max-width : 992px) {
+   .parallax-container .section {
+     /* position: absolute; */
+     top: 40%;
+   }
+   #index-banner .section {
+     top: 10%;
+   }
+ }
+ 
+ @media only screen and (max-width : 600px) {
+   #index-banner .section {
+     top: 0;
+   }
+ }
+ 
+ .icon-block {
+   padding: 0 15px;
+ }
+ .icon-block .material-icons {
+   font-size: inherit;
+ }
+ 
+ footer.page-footer {
+   margin: 0 auto;
+   
+ }
+ 
