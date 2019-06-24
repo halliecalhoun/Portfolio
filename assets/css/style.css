@@ -19,7 +19,30 @@ body {
     width: 75%;
     margin: 0 auto;
 }
- 
+
+.slider.fullscreen {
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+
+/* .empty-section {
+  margin: 0;
+
+} */
+#hero {
+  height: 600px;
+  margin-top: 200px;
+  
+}
+
+img.hero {
+  /* margin-top: 50px; */
+  margin-bottom: 50px;
+  padding: 20px;
+  height: 550px;
+
+}
 .body-content {
     margin: 0 auto;
 }
@@ -46,17 +69,90 @@ img.activator {
     height: 135px;
  }
  #landing{
-    height: 100vh;
+    height: 80vh;
     background-image: url('../images/device-electronics-keyboard-872958.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     z-index: -1;
+    /* margin-top: 35px;
+    margin-bottom: 35px;     */
+    background-color: rgba(0, 0, 0, 0.199);
+    opacity: black(0.5);
+    background-blend-mode: darken;
+    color: white;
 }
-#mainText{
-    margin-top: 25vh;
+
+#parallaxHero {
+  height: 100vh;
+  
 }
+.home2hero {
+  height: 80vh;
+  background-image: url('/assets/images/1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* z-index: -1; */
+  margin-top: 35px;
+  margin-bottom: 35px;    
+  /* background-color: rgba(0, 0, 0, 0.096);
+  opacity: black(0.25);
+  background-blend-mode: darken;
+  color: white; */
+}
+/* #overlay {
+  background: rgba(0, 0, 0, 0.377);
+} */
+
+
+#heroText {
+    margin-top: 20vh;
+}
+
+#introText {
+  margin-right: 50px;
+}
+
+#nameText {
+  margin-right: 50px;
+}
+
+#titleText {
+  margin-right: 50px;
+}
+
+#intro.section {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.carousel .carousel-item {
+  height: 350px;
+  width: 350px;
+}
+/* #intro {
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+} */
+
+#parallax-text {
+  margin-top: 30vh;
+ 
+}
+
+#parallax-subtitle {
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* #titleText {
+  margin-bottom: 20vh;
+} */
+
+
 
 #skillsets {
     margin: 0 auto;

@@ -6,6 +6,7 @@
     <link rel="icon" type="image/png" href="assets/images/HC_favicon.png" sizes="16x16" />
 
     <link href="assets/css/reset.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
@@ -19,26 +20,6 @@
 </head>
 
 <body>
-    <!-- <nav class="teal accent-4" role="navigation">
-            <div class="nav-wrapper teal accent-4"><img id="logo-container" src="images/logo.png" class="brand-logo">
-        <div class="nav-wrapper teal accent-4">
-            <a href="#" class="brand-logo"><span>Hallie Calhoun</span></a>
-            <ul class="nav right hide-on-med-and-down">
-                <li><a href="#weather-section">Weather</a></li>
-                <li><a href="#search-bar">Search Bar</a></li>
-                <li><a href="#results-section">Results</a></li>
-                <li><a href="#map">Map</a></li>
-            </ul>
-            <ul id="nav-mobile" class="nav sidenav">
-                <li><a href="#weather-section">Weather</a></li>
-                <li><a href="#search-bar">Search Bar</a></li>
-                <li><a href="#results-section">Results</a></li>
-                <li><a href="#map">Map</a></li>
-            </ul>
-            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        </div>
-    </nav> -->
-
 
     <nav class="nav teal accent-4">
         <div class="nav-wrapper teal accent-4">
@@ -49,226 +30,100 @@
             <ul id="nav-mobile" class="right hide-on-med-and-down black-text">
                 <!-- <li class="active black-text"><a href="#intro">About</a></li> -->
                 <li><a href="#intro">About</a></li>
-                <li><a href="#work">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-
+                <li><a href="assets/html/projects.html">Projects</a></li>
+                <li><a href="assets/html/home2.html">Contact</a></li>
                 <!-- <li><a href="sass.html"><i class="material-icons">search</i></a></li> -->
                 <!-- <li><a class="grey lighten-4 black-text waves-effect waves-light btn">Download <i class="material-icons right">cloud</i></a></li> -->
             </ul>
         </div>
     </nav>
 
-    <div class="body-content">
-        <div class="section" id="landing">
-            <h5 id="mainText" class="center">My Name Is</h5>
-            <h1 class="center">Hallie Calhoun</h1>
-            <h5 id="mainText" class="center">A Web Developer</h5>
-            <br>
-            <br>
-        </div>
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <!-- Intro and service -->
-        <div id="intro" class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col s12">
-                        <div class="icon-block">
-                            <div class="card hoverable grey lighten-4">
-                                <div class="card-image waves-effect waves-block waves-light">
-
-                                <div class="card-content">
-                        <h2 class="center header black-text">About Me</h2>
-                        <br>
-                     <!-- </div> -->
-                <!-- </div> -->
-                <div class="row left">
-                      <div class="col s12 m5 l3"> 
-                        <img class="profile-img" src="assets/images/square.jpg">
-                    </div>
-                     <div class="col s12 m7 offset-l1 l8 black-text" id="about-text">
-                        <!-- <h5 class="left">ABOUT <b>ME</b></h5>  -->
-                        <p>
-
-                            <i>Web Developer with a passion for design and user experience. Leverages background in
-                                graphic design, digital marketing, and web design to optimize marketing strategies and
-                                design best practices that establish a strong digital presence. Demonstrates the ability
-                                to approach programming challenges through creative problem-solving strategies. Highly
-                                communicative, collaborative, and eager to create innovative web applications while
-                                improving upon existing ones. </i>
-                        </p>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        </div>
-                    </div>
+<!-- slider fullscreen start -->
+    <div class="slider fullscreen">
+        <ul class="slides">
+            <li>
+                <img src="assets/images/apple-cup-desk-7974.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Hallie Calhoun</h3>
+                    <h5 class="light grey-text text-lighten-3">Web Developer Portfolio</h5>
                 </div>
+            </li>
+            <li>
+                <img src="assets/images/cellphone-codes-coding-92904.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                    <h3>Hallie Calhoun</h3>
+                    <h5 class="light grey-text text-lighten-3">Portfolio</h5>
+                </div>
+            </li>
+            <li>
+                <img src="assets/images/blogging-coding-copywriting-34140.jpg"> <!-- random image -->
+                <div class="caption right-align">
+                    <h3>Hallie Calhoun</h3>
+                    <h5 class="light grey-text text-lighten-3">Web Developer</h5>
+                </div>
+            </li>
+            <li>
+                <img src="assets/images/64.png"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Hallie Calhoun</h3>
+                    <h5 class="light grey-text text-lighten-3">Portfolio</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+<!-- slider fullscreen end -->
+
+    <!-- <div class="empty-section">
+    </div> -->
+
+    <div id="hero">
+        <div class="row">
+            <div class="col s7">
+                <img class="hero" id="heroImg" src="assets/images/website-mockup.gif.700.gif" alt="website mockup">
             </div>
-        </div>
+            <div class="col s5" id="heroText">
+                <h4 id="introText" class="center">My Name Is</h4>
+                <h1 class="center" id="nameText">Hallie Calhoun</h1>
+                <br>
+                <h5 id="titleText" class="center">Web Developer</h5>
+            </div>
         </div>
     </div>
-</div>
-</div>
-</div>
-    <br>
-        <br>
-       <br>
-       <br>
 
-        <!--Work-->
-        <div class="section" style="background-color: #ffffff" id="work">
-            <div class="container">
-                <h2 class="header text_b center">My Projects </h2>
-                <br>
-                <br>
-            </div>
-            <div class="container">
-                <div class="section">
 
-                    <!--   Icon Section   -->
-                    <div class="row">
-                        <div class="col s12 m4">
-                            <div class="icon-block">
-                                <div class="card hoverable grey lighten-4">
-                                    <div class="card-image waves-effect waves-block waves-light">
-                                        <img class="activator" src="assets/images/where2p.gif">
+<!-- Intro and service -->
+<div id="intro" class="section grey lighten-4">
+    <div class="container grey lighten-4" id="intro">
+        <div class="row">
+            <div class="col s12">
+                <div class="icon-block">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <div class="card-content">
+                                <h2 class="center header black-text">About Me</h2>
+                                <br>
+                                <!-- </div> -->
+                                <!-- </div> -->
+                                <div class="row left">
+                                    <div class="col s12 m5 l3">
+                                        <img class="profile-img" src="assets/images/square.jpg">
                                     </div>
-                                    <div class="card-content">
-                                        <span class="card-title activator black-text">Where2P <i
-                                                class="mdi-navigation-more-vert right"></i></span>
-                                        <p><a class="black-text" href="https://jakedudum.github.io/Where2p/">Project
-                                                link</a></p>
-                                    </div>
-                                    <div class="card-reveal">
-                                        <span class="card-title black-text">Where2P <i
-                                                class="mdi-navigation-close right"></i></span>
-                                        <p>Where2P provides a list of possible restrooms which are pulled from both the
-                                            Yelp and Google Places API calls using AJAX.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col s12 m4">
-                            <div class="icon-block">
-                                <div class="card hoverable grey lighten-4">
-                                    <div class="card-image waves-effect waves-block waves-light">
-                                        <img class="activator" src="assets/images/psyichic.GIF">
-                                    </div>
-                                    <div class="card-content">
-                                        <span class="card-title activator black-text">Psychic Game <i
-                                                class="mdi-navigation-more-vert right"></i></span>
-                                        <p><a class="black-text"
-                                                href="https://halliecalhoun.github.io/New-Psychic-Game/">Project
-                                                Link</a></p>
-                                    </div>
-                                    <div class="card-reveal">
-                                        <span class="card-title black-text">Pyschich Game <i
-                                                class="mdi-navigation-close right"></i></span>
-                                        <p>This is a Psychic Game testing the users ability to guess the computers
-                                            randomly generated number.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col s12 m4">
-                            <div class="icon-block">
-                                <div class="card hoverable grey lighten-4">
-                                    <div class="card-image waves-effect waves-block waves-light">
-                                        <img class="activator" src="assets/images/bb.png">
-                                    </div>
-                                    <div class="card-content">
-                                        <span class="card-title activator black-text">Bouquet Builder <i
-                                                class="mdi-navigation-more-vert right"></i></span>
-                                        <p><a class="black-text"
-                                                href="https://halliecalhoun.github.io/Bouquet-Builder-Game/">Project
-                                                link</a></p>
-                                    </div>
-                                    <div class="card-reveal">
-                                        <span class="card-title black-text">Bouquet Builder <i
-                                                class="mdi-navigation-close right"></i></span>
-                                        <p>In the game Bouquet Builder, you must choose the correct amount of flowers to
-                                            build a bouquet. </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col s12 m4">
-                            <div class="icon-block">
-                                <div class="card hoverable grey lighten-4">
-                                    <div class="card-image waves-effect waves-block waves-light">
-                                        <img class="activator" src="assets/images/giftastic.png">
-                                    </div>
-                                    <div class="card-content">
-                                        <span class="card-title activator black-text">Giftastic<i
-                                                class="mdi-navigation-more-vert right"></i></span>
-                                        <p><a class="black-text"
-                                                href="https://halliecalhoun.github.io/GifTastic/">Project link</a></p>
-                                    </div>
-                                    <div class="card-reveal">
-                                        <span class="card-title black-text">Giftastic <i
-                                                class="mdi-navigation-close right"></i></span>
-                                        <p>Check out gifs of your favorite foods with this app!</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col s12 m4">
-                            <div class="icon-block">
-                                <div class="card hoverable grey lighten-4">
-                                    <div class="card-image waves-effect waves-block waves-light">
-                                        <img class="activator" src="assets/images/trivia.GIF">
-                                    </div>
-                                    <div class="card-content">
-                                        <span class="card-title activator black-text">SF Trivia Game <i
-                                                class="mdi-navigation-more-vert right"></i></span>
-                                        <p><a class="black-text"
-                                                href="https://halliecalhoun.github.io/TriviaGame//">Project link</a></p>
-                                    </div>
-                                    <div class="card-reveal">
-                                        <span class="card-title black-text">SF Trivia Game <i
-                                                class="mdi-navigation-close right"></i></span>
-                                        <p>Test your knowledge of San Francisco, but make sure to answer each question
-                                            before time runs out!</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col s12 m4">
-                            <div class="icon-block">
-                                <div class="card hoverable grey lighten-4">
-                                    <div class="card-image waves-effect waves-block waves-light">
-                                        <img class="activator" src="assets/images/train.png">
-                                    </div>
-                                    <div class="card-content">
-                                        <span class="card-title activator black-text">Train Scheduler<i
-                                                class="mdi-navigation-more-vert right"></i></span>
-                                        <p><a class="black-text"
-                                                href="https://halliecalhoun.github.io/train-scheduler/">Project link</a>
+                                    <div class="col s12 m7 offset-l1 l8 black-text" id="about-text">
+                                        <!-- <h5 class="left">ABOUT <b>ME</b></h5>  -->
+                                        <p>
+                                        <i>Web Developer with a passion for design and user experience.
+                                            Leverages background in
+                                            graphic design, digital marketing, and web design to optimize
+                                            marketing strategies and
+                                            design best practices that establish a strong digital presence.
+                                            Demonstrates the ability
+                                            to approach programming challenges through creative problem-solving
+                                            strategies. Highly
+                                            communicative, collaborative, and eager to create innovative web
+                                            applications while
+                                            improving upon existing ones. </i>
                                         </p>
                                     </div>
-                                    <div class="card-reveal">
-                                        <span class="card-title black-text">Train Scheduler <i
-                                                class="mdi-navigation-close right"></i></span>
-                                        <p>his is a train schedule application that incorporates Firebase to host
-                                            arrival and departure data.</p>
-                                        <br><br><br><br><br><br><br><br>
-
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -276,151 +131,228 @@
                 </div>
             </div>
         </div>
-            <!-- Skill Sets -->
+    </div>
+</div>
+
+
+    <div class="section" style="background-color: #ffffff" id="work">
+        <div class="container">
+            <h2 class="header text_b center">My Projects </h2>
             <br>
             <br>
-            <div class="section center" id="skillsets">
-                <div class="container center">
-                    <div class="row center">
+        </div>
+        <div class="container">
+            <div class="section">
 
+                <div class="row">
+                    <div class="carousel">
+                        <div class="carousel-fixed-item center">
+                            <a class="carousel-item" href="https://jakedudum.github.io/Where2p/">
+                                <h5 class="black-text">Where2P App</h5>
+                                <img src="assets/images/where2p.gif">
+                                <p class="teal-text">Project Link</p><a class="teal-text"
+                                    href="https://jakedudum.github.io/Where2p/"></a>
+                            </a>
+                            <a class="carousel-item" href="https://halliecalhoun.github.io/New-Psychic-Game/">
+                                <h5 class="black-text">Psychic Game</h5>
+                                <img src="assets/images/psyichic.GIF">
+                                <p class="teal-text">Project Link</p><a class="teal-text"
+                                    href="https://halliecalhoun.github.io/New-Psychic-Game/"></a>
+                            </a>
+                            <a class="carousel-item" href="https://halliecalhoun.github.io/Bouquet-Builder-Game/">
+                                <h5 class="black-text">Bouquet Builder Game</h5>
+                                <img src="assets/images/bb.png">
+                                <p class="teal-text">Project Link</p><a class="teal-text"
+                                    href="https://halliecalhoun.github.io/Bouquet-Builder-Game/"></a>
+                            </a>
 
-                        <br>
-                        <br>
-                        <h1 class="center">
-                            My Skills
-                        </h1>
-                        <br>
-                        <br>
-                    </div>
+                            <a class="carousel-item" href="https://halliecalhoun.github.io/train-scheduler/">
+                                <h5 class="black-text">Dynamic Train Scheduler</h5>
+                                <img src="assets/images/train.png">
+                                <p class="teal-text">Project Link</p><a class="teal-text"
+                                    href="https://halliecalhoun.github.io/train-scheduler/"></a>
+                            </a>
 
-                    <div class="row center">
-                        <div class="col s12 m12 l1">
-                            <img class="responsive-img" src="assets/images/skills/0_g3ns8QALNBBH7CBA_.gif">
-                        </div>
-                        <div class="col s12 m12 l1">
-                            <img class="responsive-img"
-                                src="assets/images/skills/1200px-HTML5_logo_and_wordmark.svg.png">
-                        </div>
-                        <div class="col s12 m12 l1">
-                            <img class="responsive-img"
-                                src="assets/images/skills/1200px-Unofficial_JavaScript_logo_2.svg.png">
-                        </div>
-                        <div class="col s12 m12 l1">
-                            <img class="responsive-img" src="assets/images/skills/6707cfe60d0ae430dea81b1a5cdd3402.png">
-                        </div>
-                        <div class="col s12 m12 l1">
-                            <img class="responsive-img" src="assets/images/skills/logo-2582747_960_720.png">
-                        </div>
-                        <div class="col s12 m12 l1">
-                            <img class="responsive-img" src="assets/images/skills/bootstrap-logo-png-logo-228.png">
-                        </div>
-                        <div class="col s12 m12 l1">
-                            <img class="responsive-img" src="assets/images/skills/flat,550x550,075,f.jpg">
-                        </div>
-                        <div class="col s12 m12 l1">
-                            <img class="responsive-img" src="assets/images/skills/materialize.png">
-                        </div>
-                        <div class="col s12 m12 l1">
-                            <img class="responsive-img"
-                                src="assets/images/skills/node-stack-220x234-13e818133cafaaa6f15888e1f94a9e6a.png">
-                        </div>
-                        <div class="col s12 m12 l1">
-                            <img class="responsive-img" src="assets/images/skills/git-logo.png">
-                        </div>
-                        <div class="col s12 m12 l1">
-                            <img class="responsive-img"
-                                src="assets/images/skills/1200px-Visual_Studio_Code_1.35_icon.svg.png">
-                        </div>
-                        <div class="col s12 m12 l1">
-                            <img class="responsive-img" src="assets/images/skills/446959-200.png">
+                            <a class="carousel-item" href="https://halliecalhoun.github.io/Giftastic/">
+                                <h5 class="black-text">GifTastic App</h5>
+                                <img src="assets/images/giftastic.png">
+                                <p class="teal-text">Project Link</p><a class="teal-text"
+                                    href="https://halliecalhoun.github.io/GifTastic/"></a>
+                            </a>
+                            <a class="carousel-item" href="https://halliecalhoun.github.io/TriviaGame/">
+                                <h5 class="black-text">SF Trivia Game</h5>
+                                <img src="assets/images/trivia.GIF">
+                                <p class="teal-text">Project Link</p><a class="teal-text"
+                                    href="https://halliecalhoun.github.io/TriviaGame/"></a>
+                            </a>
+                            <a class="carousel-item" href="https://github.com/halliecalhoun/liri-node-app/">
+                                <h5 class="black-text">Liri Node App</h5>
+                                <img src="assets/images/spotify-this-song.PNG">
+                                <p class="teal-text">Project Link</p><a class="teal-text"
+                                    href="https://github.com/halliecalhoun/liri-node-app/"></a>
+                            </a>
+
+                            
+                            <!--         
+    <a class="carousel-item" href="#testing"><img src="assets/images/psyichic.GIF"></a>
+    <a class="carousel-item" href="#three!"><img src="assets/images/site.GIF"></a>
+    <a class="carousel-item" href="#four!"><img src="assets/images/giftastic.png"></a>
+    <a class="carousel-item" href="#five!"><img src="assets/images/train.png"></a>
+    <a class="carousel-item" href="#five!"><img src="assets/images/sf trivia.GIF"></a> -->
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <!-- contact1 -->
-            <div class="divider"></div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <section id="Contact">
-                <div class="parallax-container valign-wrapper" style="height:600px;">
+    <!-- parallax -->
+    <!-- <div class="body-content"> -->
+    <div class="section" id="landing">
+        <div id="overlay">
+            <h2 class="center" id="parallax-text">Creating digital experiences<span class="center"
+                    id="parallax-subtitle"> that convert</span></h2>
+        </div>
+    </div>
+    <!-- Skill Sets -->
+    <br>
+    <br>
+    <div class="section center" id="skillsets">
+        <div class="container center">
+            <div class="row center">
+                <br>
+                <br>
+                <h1 class="center">
+                    My Skills
+                </h1>
+                <br>
+                <br>
+            </div>
+
+            <div class="row center">
+                <div class="col s12 m12 l1">
+                    <img class="responsive-img" src="assets/images/skills/0_g3ns8QALNBBH7CBA_.gif">
+                </div>
+                <div class="col s12 m12 l1">
+                    <img class="responsive-img" src="assets/images/skills/1200px-HTML5_logo_and_wordmark.svg.png">
+                </div>
+                <div class="col s12 m12 l1">
+                    <img class="responsive-img" src="assets/images/skills/1200px-Unofficial_JavaScript_logo_2.svg.png">
+                </div>
+                <div class="col s12 m12 l1">
+                    <img class="responsive-img" src="assets/images/skills/6707cfe60d0ae430dea81b1a5cdd3402.png">
+                </div>
+                <div class="col s12 m12 l1">
+                    <img class="responsive-img" src="assets/images/skills/logo-2582747_960_720.png">
+                </div>
+                <div class="col s12 m12 l1">
+                    <img class="responsive-img" src="assets/images/skills/bootstrap-logo-png-logo-228.png">
+                </div>
+                <div class="col s12 m12 l1">
+                    <img class="responsive-img" src="assets/images/skills/flat,550x550,075,f.jpg">
+                </div>
+                <div class="col s12 m12 l1">
+                    <img class="responsive-img" src="assets/images/skills/materialize.png">
+                </div>
+                <div class="col s12 m12 l1">
+                    <img class="responsive-img"
+                        src="assets/images/skills/node-stack-220x234-13e818133cafaaa6f15888e1f94a9e6a.png">
+                </div>
+                <div class="col s12 m12 l1">
+                    <img class="responsive-img" src="assets/images/skills/git-logo.png">
+                </div>
+                <div class="col s12 m12 l1">
+                    <img class="responsive-img" src="assets/images/skills/1200px-Visual_Studio_Code_1.35_icon.svg.png">
+                </div>
+                <div class="col s12 m12 l1">
+                    <img class="responsive-img" src="assets/images/skills/446959-200.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
 
-                    <!--Contact-->
-                    <div class="container" id="contact">
+    <!-- contact1 -->
+    <div class="divider"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="Contact">
+        <div class="parallax-container valign-wrapper" style="height:600px;">
 
+            <!--Contact-->
+            <div class="container" id="contact">
+                <!--Form-->
+                <div class="row">
+                    <div class="card hoverable grey lighten-4">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <div class="card-content">
+                                <div>
+                                    <h2 class="black-text center">Contact Me</h2>
+                                </div>
 
-                        <!--Form-->
-
-                        <div class="row">
-                                <div class="card hoverable grey lighten-4">
-                                        <div class="card-image waves-effect waves-block waves-light">
-                                        <div class="card-content">
-                            <div>
-                                <h2 class="black-text center">Contact Me</h2>
-                            </div>
-
-                            <form class="col s12">
-                                <fieldset>
-                                    <!-- <legend>Interested in working together?</legend> -->
-                                    <div class="row">
-                                        <div class="input-field col s6">
-                                            <i class=" material-icons prefix teal-text">account_circle</i>
-                                            <input placeholder="John" id="first_name" type="text" class="validate">
-                                            <label for="first_name">First Name</label>
-                                        </div>
-                                        <div class="input-field col s6">
-                                            <i class=" material-icons prefix teal-text">account_box</i>
-                                            <input placeholder="Doe" id="first_name" type="text" class="validate">
-                                            <label for="last_name">Last Name</label>
-                                        </div>
-
+                                <form class="col s12">
+                                    <fieldset>
+                                        <!-- <legend>Interested in working together?</legend> -->
                                         <div class="row">
-                                            <div class="input-field col s12">
-                                                <i class="material-icons prefix teal-text">email</i>
-                                                <input id="email" type="email" class="validate">
-                                                <label for="email" data-error="wrong" data-success="right">Email</label>
+                                            <div class="input-field col s6">
+                                                <i class=" material-icons prefix teal-text">account_circle</i>
+                                                <input placeholder="John" id="first_name" type="text" class="validate">
+                                                <label for="first_name">First Name</label>
                                             </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="input-field col s12">
-                                                <i class="material-icons prefix teal-text">chat</i>
-                                                <textarea id="textarea1" class="materialize-textarea"></textarea>
-                                                <label for="textarea1">Message me</label>
+                                            <div class="input-field col s6">
+                                                <i class=" material-icons prefix teal-text">account_box</i>
+                                                <input placeholder="Doe" id="first_name" type="text" class="validate">
+                                                <label for="last_name">Last Name</label>
                                             </div>
-                                        </div>
-                                        <br>
 
-                                        <button class="btn waves-effect waves-light teal accent-4 right" type="submit"
-                                            name="action">Get in touch
-                                            <i class="material-icons right">send</i>
+                                            <div class="row">
+                                                <div class="input-field col s12">
+                                                    <i class="material-icons prefix teal-text">email</i>
+                                                    <input id="email" type="email" class="validate">
+                                                    <label for="email" data-error="wrong"
+                                                        data-success="right">Email</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="input-field col s12">
+                                                    <i class="material-icons prefix teal-text">chat</i>
+                                                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                                    <label for="textarea1">Message me</label>
+                                                </div>
+                                            </div>
                                             <br>
-                                        </button>
-                                        <br>
-                                </fieldset>
-                                <br>
-                                <br>
-                            </form>
 
-                        </div>
-                        <!--parralx-->
-                        <div class="parallax">
-                            <img src="/assets/images/bootstrap-4.svg" class="responsive-img">
-                        </div>
-                        <br>
-                        <br>
-            </section>
+                                            <button class="btn waves-effect waves-light teal accent-4 right"
+                                                type="submit" name="action">Get in touch
+                                                <i class="material-icons right">send</i>
+                                                <br>
+                                            </button>
+                                            <br>
+                                    </fieldset>
+                                    <br>
+                                    <br>
+                                </form>
+
+                            </div>
+                            <!--parallax-->
+                            <div class="parallax">
+                                <img src="/assets/images/bootstrap-4.svg" class="responsive-img">
+                            </div>
+                            <br>
+                            <br>
+    </section>
     </div>
     <br>
     <br>
@@ -428,31 +360,31 @@
     <br>
     <br>
 
-<footer class="page-footer teal accent-4">
+    <footer class="page-footer teal accent-4">
         <div class="container">
-        <div class="row">
-            <div class="col l6 s12">
-            <h5 class="white-text">Hallie Calhoun</h5>
-            <p class="grey-text text-lighten-4">Web Developer</p>
-            <p class="grey-text text-lighten-4">Portfolio</p>
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Hallie Calhoun</h5>
+                    <p class="grey-text text-lighten-4">Web Developer</p>
+                    <p class="grey-text text-lighten-4">Portfolio</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#intro">About</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#work">Projects</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Links</h5>
-            <ul>
-                <li><a class="grey-text text-lighten-3" href="#intro">About</a></li>
-                <li><a class="grey-text text-lighten-3" href="#work">Projects</a></li>
-                <li><a class="grey-text text-lighten-3" href="#contact">Contact</a></li>
-            </ul>
-            </div>
-        </div>
         </div>
         <div class="footer-copyright">
-        <div class="container">
-        © 2019 Copyright Text
-        <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+            <div class="container">
+                © 2019 Copyright Text
+                <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+            </div>
         </div>
-        </div>
-    </footer> 
+    </footer>
     <!--JavaScript at end of body for optimized loading-->
     <!-- Compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -464,8 +396,8 @@
 
 </html>
 
- <!-- contact2 -->
-            <!-- <div id="contact" class="section scrollspy">
+<!-- contact2 -->
+<!-- <div id="contact" class="section scrollspy">
                 <div class="container center">
                     <div class="row">
                             <div class="card hoverable grey lighten-4">
@@ -518,4 +450,4 @@
             </div>
         </div> -->
 
-        <!-- <div style="height:500px"></div> -->
+<!-- <div style="height:500px"></div> -->
